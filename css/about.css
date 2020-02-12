@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Open+Sans&display=swap');
+
+.container {
+    height: 800px;
+    width: 100%;  
+    margin-top: 10vh;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    /* height: 700px; */
+    width: 30%;
+    border: 3px solid #000;
+    border-radius: 8%;
+    margin: 10px;
+    /* display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.about-box p {
+    margin: 20px;
+}
+
+.about-image {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.audio {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
